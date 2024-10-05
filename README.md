@@ -52,7 +52,7 @@ The requirements.txt file includes the following packages:
 7. Open the Google Spreadsheet that contains your recipient data, and share it with the service account email (found in credentials.json).
 
    
-###4. Enable Gmail App Password
+### 4. Enable Gmail App Password
 To send emails using Gmail, you must use an App Password if Two-Factor Authentication (2FA) is enabled. Follow these steps:
 
 1. Go to your Google Account.
@@ -60,7 +60,7 @@ To send emails using Gmail, you must use an App Password if Two-Factor Authentic
 3. Generate an App Password here.
 4. Use this App Password in the Python script to authenticate sending emails.
    
-###5. Customize the Script
+### 5. Customize the Script
 1. Open the email_sender.py script.
 2. Replace the placeholder Gmail credentials with your own Gmail address and App Password:
 ```bash
@@ -78,7 +78,7 @@ To execute the script and send emails, run the following command:
 python email_sender.py
 ```
 
-###Example Spreadsheet Structure
+### Example Spreadsheet Structure
 Your Google Spreadsheet should contain two columns with the following headers:
 
 Name: The name of the recipient (e.g., "Ayushi").
